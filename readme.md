@@ -2,10 +2,10 @@
 Welcome to my repo where I'll be practicing my data structures and algorithms! It's in Python as I plan to stick to this language for doing Leetcode.
 
 ## Study Plan
-The iconic [Neetcode 150](https://neetcode.io/roadmap) will be my baseline. Instead of watching his videoes though I'll build my knowledge from good YouTube videoes, articles, and the Algorithm Design Manual. 
+The iconic [Neetcode 150](https://neetcode.io/roadmap) will be my baseline. Instead of watching his videos though I'll build my knowledge from good YouTube videos, articles, and the Algorithm Design Manual. 
 
 ## Useful Resources
-I'm going to keep track of useful webpages or videoes I see in this. Depending how diligently I stick to this, it could be moved to the wiki instead :o     
+I'm going to keep track of useful webpages or videos I see in this. Depending how diligently I stick to this, it could be moved to the wiki instead :o     
 
 ### Sliding Window 
 
