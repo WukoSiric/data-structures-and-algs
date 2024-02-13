@@ -11,7 +11,7 @@ def find_max_subarray(array: list[int], window_size: int) -> int:
             current_running_sum -= array[i - (window_size - 1)]
     return maximum
 
-def main(): 
+def main():
     array = []
     for i in range(8): 
         array.append(random.randint(1, 10))
