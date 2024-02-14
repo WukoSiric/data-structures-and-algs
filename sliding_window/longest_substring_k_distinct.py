@@ -23,14 +23,12 @@ def longest_substring_length(string: str, distinct_char_count: int) -> int:
     return max_substring_length
 
 def main():
-    random_string = "AAAHHIBC"
-    print(longest_substring_length(random_string, 2))
-    random_string = "AAAHHIBC"
-    print(longest_substring_length(random_string, 3))
-    random_string = "AAAHHIBC"
-    print(longest_substring_length(random_string, 4))
-    random_string = "AAAHHIBC"
-    print(longest_substring_length(random_string, 5))
+    print("Enter your string:")
+    user_string = str(input()) 
+    print("Enter the limit for the distinct characters:")
+    k = int(input())
+    user_string = user_string.upper() 
+    print("Result: " + str(longest_substring_length(user_string, k)))
 
 
 if __name__ == "__main__":
