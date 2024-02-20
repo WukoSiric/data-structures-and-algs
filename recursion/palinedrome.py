@@ -1,7 +1,9 @@
 def is_palindrome(string: str) -> bool: 
+    # Base case
     if len(string) <= 1: 
         return True
     
+    # Recursive case
     if string[0] != string[-1]: 
         return False 
     
@@ -16,7 +18,7 @@ def main():
     result = is_palindrome(input_string.upper())
 
     print()
-    
+
     if result: 
         print(input_string + " is a palindrome!")
         return
