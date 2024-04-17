@@ -8,9 +8,21 @@ def increasing_stack(array: list[int]) -> list[int]:
 		print(stack)
 	return stack 
 
+def get_next_greater_indexes(array: list[int]) -> list[int]: 
+	stack = [] 
+	next_greater_indexes = [-1 for i in range(len(array))]
+
+	for i in range(len(array)): 
+		while(len(stack) and array[i] > array[stack[-1]]): 
+			stack_top = stack.pop()
+			next_greater_indexes[stack_top] = i
+
+		stack.append(i)
+	return next_greater_indexes
+
 def main(): 
 	array = [3, 8, 4, 9, 13, 6]
-	result = increasing_stack(array)
+	result = get_next_greater_indexes(array)
 	print(result)
 	pass
 
